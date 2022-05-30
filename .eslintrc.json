@@ -77,6 +77,11 @@
           "**/*.spec.js"
         ]
       }
+    ],
+    "no-use-before-define": [
+      "error"
+      ,
+      { "functions": true, "classes": false, "variables": true }
     ]
   },
   "settings": {
